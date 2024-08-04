@@ -1,0 +1,1555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+.w-1728 {
+  width: 1728px;
+  height: 100vh;
+  margin: 0 auto;
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #F7F8FD;
+  width: 1728px;
+  height: 856px;
+  padding-top: 30px;
+  padding-left: 224px;
+  padding-right: 222px;
+
+
+
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 526px;
+
+
+
+
+
+}
+
+.top nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.top nav a {
+  text-decoration: none;
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+
+}
+
+.top nav button {
+  border-radius: 5px;
+  background:  #03045E;
+
+  display: inline-flex;
+  padding: 11px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+border: none;
+
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.top-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 71px;
+  padding-bottom: 200px;
+
+
+
+}
+
+.top-text {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 36px;
+  width: 585px;
+  padding-bottom: 88px;
+  padding-top: 68px;
+
+
+
+
+
+}
+
+
+
+
+
+
+.top-text h1 {
+  width: 556px;
+  height: 136px;
+  color: #03045E;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px; /* 141.667% */
+}
+
+.top-text p {
+  color: rgba(3, 4, 94, 0.50);
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 556px;
+  height: 48px;
+}
+
+.top-text button {
+  border-radius: 5px;
+  background: #0098FF;
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  width: 188px;
+  height: 61px;
+  margin-right: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+.search {
+  width: 1728px;
+  height: 434px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 224px;
+  padding-right: 224px;
+}
+
+
+
+.find h3 {
+
+  width: 381px;
+  color: #03045E;
+
+  /* h3 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+
+
+}
+
+.find input[type="search" ] {
+  width: 466px;
+  height: 60px;
+  border: none;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+
+}
+
+
+.find input[type="submit" ] {
+  width: 159px;
+  height: 60px;
+  border: none;
+  background-color: #0098FF;
+  border-radius: 0px 5px 5px 0px;
+
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-top: 36px;
+
+}
+
+.find {
+  position: relative;
+  height: 134px;
+
+}
+ .line {
+
+  width: 1px;
+  height: 134px;
+  opacity: 0.1;
+  background: #03045E;
+   position: absolute;
+   top: -1px;
+   right: -70px;
+
+
+
+
+}
+
+
+.sites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 587px;
+  height: 134px;
+  flex-direction: column;
+  padding-left: 70px;
+
+
+
+}
+
+.sites-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 133px;
+}
+
+.sites-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 133px;
+}
+
+
+
+
+
+.com h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.com p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+
+.co-uk h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.co-uk p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+
+.shop h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.shop p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+
+.in h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.in p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+
+.de h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.de p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+.nl h5 {
+  color:#0098FF;
+  width: 79px;
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.nl p {
+  color: #03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  font-weight: 700;
+
+  opacity: 0.3;
+}
+
+
+.service {
+background-color: rgba(246,246,246,0.41);
+  margin-top: 150px;
+  padding-top: 150px;
+  width: 1728px;
+  height: 996px;
+}
+
+
+.service h2 {
+  margin-left: 742px;
+  width: 243px;
+  color: var(--Primary, #03045E);
+
+  /* h2 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+
+}
+
+.hosting-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1281px;
+  height: 255px;
+  margin-left: 224px;
+  margin-top: 60px;
+  padding-top: 60px;
+}
+
+.shared-web-hosting {
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-hosting {
+  width: 407px;
+  height: 255px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.web-hosting h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.web-hosting p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.VPS {
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VPS-Hosting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 255px;
+  width: 407px;
+}
+
+.VPS-Hosting h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.VPS-Hosting p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dedicated {
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.dedicated-server {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 255px;
+  width: 407px;
+
+}
+
+.dedicated-server h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dedicated-server p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hosting-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1281px;
+  height: 255px;
+  margin-left: 224px;
+  margin-top: 80px;
+}
+
+.cloud{
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud-hosting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 255px;
+  width: 407px;
+}
+
+.cloud-hosting h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cloud-hosting p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.domain {
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.domain-names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 255px;
+  width: 407px;
+}
+
+.domain-names  h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.domain-names p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+
+}
+
+.licence {
+
+  width: 100px;
+  height: 100px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.licence-keys {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 255px;
+  width: 407px;
+}
+
+.licence-keys h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.licence-keys p {
+  color:#03045E;
+  text-align: center;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+
+
+
+
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 717px;
+  width: 1728px;
+  margin-top: 150px;
+}
+
+.feedback h2 {
+  color: #03045E;
+
+  /* h2 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+
+.USA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1728px;
+  gap: 30px;
+  padding-left: 224px;
+  padding-right: 225px;
+}
+
+.feedback1 {
+
+  width: 407px;
+  height: 263px;
+  background-color: rgba(246,246,246,0.4);
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.feedback1 p:nth-child(1) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 327px;
+}
+
+.feedback1 h5 {
+  color:#03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+}
+
+.feedback1 p:nth-child(3) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 8px;
+}
+
+.feedback2 {
+
+  width: 407px;
+  height: 263px;
+  background-color: rgba(246,246,246,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.feedback2 p:nth-child(1) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 327px;
+}
+
+.feedback2 h5 {
+  color: #03045E;
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+}
+
+.feedback2 p:nth-child(3) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 8px;
+}
+
+
+.feedback3 {
+
+  width: 407px;
+  height: 263px;
+  background-color: rgba(246,246,246,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.feedback3 p:nth-child(1) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 327px;
+}
+
+.feedback3 h5 {
+  color: var(--Primary, #03045E);
+
+  /* h5 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+}
+
+.feedback3 p:nth-child(3) {
+  color:#03045E;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 8px;
+}
+
+
+
+
+.achievements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0098FF;
+  width: 1728px;
+  height: 315px;
+  margin-top: 150px;
+  gap: 195px;
+  padding-left: 224px;
+  padding-right: 226px;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+
+
+
+.share h3 {
+  color: #FFF;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.share p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hosting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+
+
+.hosting h3 {
+  color: #FFF;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hosting p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+
+}
+
+.server {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+
+
+.server h3 {
+  color: #FFF;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.server p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.sky h3 {
+  color: #FFF;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sky p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+.subscribtions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.flex h2 {
+  color:#03045E;
+
+  /* h2 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+
+
+
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-left: 224px;
+  padding-right: 232px;
+  margin-top: 60px;
+
+}
+
+.monthly {
+  width: 318px;
+  height: 593px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+}
+
+.monthly h6 {
+  color: #0098FF;
+  text-align: center;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.monthly h3 {
+  color:#03045E;
+  text-align: center;
+
+  /* h3 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.monthly p {
+  color: rgba(3,4,94,0.51);
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.monthly button {
+
+  border-radius: 5px;
+  background:#03045E;
+  width: 150px;
+  height: 49px;
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+
+
+}
+
+.Quarterly {
+  width: 318px;
+  height: 593px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background:#0098FF;
+}
+
+.Quarterly h6 {
+  color: #FFF;
+  text-align: center;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Quarterly h3 {
+  color:#FFF;
+  text-align: center;
+
+  /* h3 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Quarterly p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-bottom: 1px solid #FFF;
+  width: 318px;
+
+}
+
+.Quarterly button {
+
+  border-radius: 5px;
+  background:#03045E;
+  width: 150px;
+  height: 49px;
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+
+
+}
+
+.Semi-Annually {
+  width: 318px;
+  height: 593px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+}
+
+.Semi-Annually h6 {
+  color: #0098FF;
+  text-align: center;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Semi-Annually h3 {
+  color:#03045E;
+  text-align: center;
+
+  /* h3 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Semi-Annually p {
+  color: rgba(3,4,94,0.51);
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.Semi-Annually button {
+
+  border-radius: 5px;
+  background:#03045E;
+  width: 150px;
+  height: 49px;
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+
+
+}
+
+.Annually {
+  width: 318px;
+  height: 593px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+}
+
+.Annually h6 {
+  color: #0098FF;
+  text-align: center;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Annually h3 {
+  color:#03045E;
+  text-align: center;
+
+  /* h3 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Annually p {
+  color: rgba(3,4,94,0.51);
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.Annually button {
+
+  border-radius: 5px;
+  background:#03045E;
+  width: 150px;
+  height: 49px;
+
+  color: #FFF;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+
+
+}
+
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 103px;
+  width: 1728px;
+  height: 472px;
+  background-color: rgba(246,246,246,0.41);
+  padding-top: 100px;
+
+
+
+}
+
+.logotype {
+  padding-left: 224px;
+  padding-bottom: 227px;
+
+}
+
+.logotype p {
+  color:#03045E;
+
+  /* paragraph */
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 297px;
+  height: 72px;
+  padding-top: 24px;
+}
+
+.Quick-links {
+  padding-bottom: 170px;
+
+}
+
+
+
+
+.Quick-links h6 {
+  color: #000;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Quick-links a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgba(3,4,94,0.51);
+
+}
+
+
+.Quick-links a:nth-child(2) {
+  padding-top: 14px;
+}
+
+
+.services h6 {
+  color: #000;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.services a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgba(3,4,94,0.51);
+
+}
+
+.services {
+  padding-bottom: 100px;
+}
+
+.services  a:nth-child(2) {
+  padding-top: 14px;
+}
+
+.contact-follow-us {
+  padding-bottom: 161px;
+}
+
+.contact-follow-us h6 {
+  color: #000;
+
+  /* h6 */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 103px;
+
+}
+
+.contact-follow-us p {
+  color:#03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  width: 298px;
+  padding-top: 14px;
+
+
+}
+
+.contact-follow-us p:nth-child(3) {
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+
+.contact-follow-us h6:nth-child(4) {
+  padding-bottom: 24px;
+}
+
+
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 113px;
+  height: 24px;
+}
+
+
+
+.logo a {
+  text-decoration: none;
+
+}
+
+
+
+.copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1728px;
+  height: 98px;
+
+}
+
+.copyrights p:nth-child(1) {
+  padding-left: 224px;
+  color:#03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.copyrights p:nth-child(2) {
+  padding-right: 224px;
+  color:#03045E;
+  font-family: "Poppins",sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
